@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		E286E7901117B32500BA5EBC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E286E78F1117B32500BA5EBC /* AddressBook.framework */; };
+		E286E8731117BB5900BA5EBC /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E286E8721117BB5900BA5EBC /* WebKit.framework */; };
+		E286E97A1117C1C100BA5EBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E286E9771117C1C100BA5EBC /* AppDelegate.m */; };
+		E286E97B1117C1C100BA5EBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E286E9781117C1C100BA5EBC /* main.m */; };
+		E286E98C1117C1CE00BA5EBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E286E9851117C1CE00BA5EBC /* InfoPlist.strings */; };
+		E286E98D1117C1CE00BA5EBC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E286E9871117C1CE00BA5EBC /* Localizable.strings */; };
+		E286E98E1117C1CE00BA5EBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E286E9891117C1CE00BA5EBC /* MainMenu.xib */; };
+		E286E9CB1117C27000BA5EBC /* Person.xslt in Resources */ = {isa = PBXBuildFile; fileRef = E286E9CA1117C27000BA5EBC /* Person.xslt */; };
+		E286E9ED1117C5CF00BA5EBC /* css in Resources */ = {isa = PBXBuildFile; fileRef = E286E9E61117C5CF00BA5EBC /* css */; };
+		E286E9EE1117C5CF00BA5EBC /* js in Resources */ = {isa = PBXBuildFile; fileRef = E286E9E91117C5CF00BA5EBC /* js */; };
+		E286EB671117D46B00BA5EBC /* images in Resources */ = {isa = PBXBuildFile; fileRef = E286EB641117D46B00BA5EBC /* images */; };
+		E2CFFFE711186ECB006D3CE0 /* AppDelegate_js.m in Sources */ = {isa = PBXBuildFile; fileRef = E286EC5011182B4100BA5EBC /* AppDelegate_js.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107320486CEB800E47090 /* Can Haz Address.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can Haz Address.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E286E78F1117B32500BA5EBC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E286E8721117BB5900BA5EBC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E286E9761117C1C100BA5EBC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E286E9771117C1C100BA5EBC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E286E9781117C1C100BA5EBC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E286E9791117C1C100BA5EBC /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		E286E9861117C1CE00BA5EBC /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E286E9881117C1CE00BA5EBC /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E286E98A1117C1CE00BA5EBC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E286E98B1117C1CE00BA5EBC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E286E9CA1117C27000BA5EBC /* Person.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Person.xslt; sourceTree = "<group>"; };
+		E286E9E61117C5CF00BA5EBC /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		E286E9E91117C5CF00BA5EBC /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		E286EB641117D46B00BA5EBC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		E286EC5011182B4100BA5EBC /* AppDelegate_js.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_js.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				E286E7901117B32500BA5EBC /* AddressBook.framework in Frameworks */,
+				E286E8731117BB5900BA5EBC /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E286E78F1117B32500BA5EBC /* AddressBook.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E286E8721117BB5900BA5EBC /* WebKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Can Haz Address.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Ma Lil&apos; Black Book */ = {
+			isa = PBXGroup;
+			children = (
+				E286E9751117C1C100BA5EBC /* Sources */,
+				E286E9841117C1CE00BA5EBC /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Ma Lil&apos; Black Book";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E286E9751117C1C100BA5EBC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E286E9791117C1C100BA5EBC /* Prefix.pch */,
+				E286E9781117C1C100BA5EBC /* main.m */,
+				E286E9761117C1C100BA5EBC /* AppDelegate.h */,
+				E286E9771117C1C100BA5EBC /* AppDelegate.m */,
+				E286EC5011182B4100BA5EBC /* AppDelegate_js.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E286E9841117C1CE00BA5EBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E286E98B1117C1CE00BA5EBC /* Info.plist */,
+				E286E9851117C1CE00BA5EBC /* InfoPlist.strings */,
+				E286E9871117C1CE00BA5EBC /* Localizable.strings */,
+				E286E9CA1117C27000BA5EBC /* Person.xslt */,
+				E286E9891117C1CE00BA5EBC /* MainMenu.xib */,
+				E286E9E61117C5CF00BA5EBC /* css */,
+				E286E9E91117C5CF00BA5EBC /* js */,
+				E286EB641117D46B00BA5EBC /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Can Haz Address */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Can Haz Address" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Can Haz Address";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Ma Lil' Black Book";
+			productReference = 8D1107320486CEB800E47090 /* Can Haz Address.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Can Haz Address" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Ma Lil&apos; Black Book */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Can Haz Address */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E286E98C1117C1CE00BA5EBC /* InfoPlist.strings in Resources */,
+				E286E98D1117C1CE00BA5EBC /* Localizable.strings in Resources */,
+				E286E98E1117C1CE00BA5EBC /* MainMenu.xib in Resources */,
+				E286E9CB1117C27000BA5EBC /* Person.xslt in Resources */,
+				E286E9ED1117C5CF00BA5EBC /* css in Resources */,
+				E286E9EE1117C5CF00BA5EBC /* js in Resources */,
+				E286EB671117D46B00BA5EBC /* images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E286E97A1117C1C100BA5EBC /* AppDelegate.m in Sources */,
+				E286E97B1117C1C100BA5EBC /* main.m in Sources */,
+				E2CFFFE711186ECB006D3CE0 /* AppDelegate_js.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E286E9851117C1CE00BA5EBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E286E9861117C1CE00BA5EBC /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E286E9871117C1CE00BA5EBC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E286E9881117C1CE00BA5EBC /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E286E9891117C1CE00BA5EBC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E286E98A1117C1CE00BA5EBC /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				HEADER_SEARCH_PATHS = Sources;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Can Haz Address";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Prefix.pch;
+				HEADER_SEARCH_PATHS = Sources;
+				INFOPLIST_FILE = Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Can Haz Address";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Can Haz Address" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Can Haz Address" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

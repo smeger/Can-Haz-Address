@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Can Haz Address' target in the 'Can Haz Address' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+	#import <WebKit/WebKit.h>
+#endif

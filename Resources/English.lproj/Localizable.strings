@@ -1,0 +1,10 @@
+/* 
+   Localizable.strings
+   Can Haz Address
+
+   Created by Jason Harris on 2/2/10.
+   Copyright 2010 Geekspiff. All rights reserved.
+ */
+
+"MultipleValues" = "multiple selection";
+"NoSelection" = "no selection";

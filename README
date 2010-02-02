@@ -1,0 +1,8 @@
+This is a super-simple Address Book application that uses a WebView to display the selected person. It was written to demonstrate the ease and power of using WebViews for data display, and to demo using XSLT to go from structured data to XHTML in a clean, localizable way.
+
+Fun things to try:
+- Click a phone number.
+- Read the comments in Person.xslt and make the changes that they recommend.
+
+Please feel free to use this code without restrictions.
+Jason Harris, NSConference, Febrary 2010
